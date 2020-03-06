@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 //Note:This handler doesn't handle error when supply service is down.
-public class SupplyResponseErrorHandler implements ResponseErrorHandler {
+public class StockResponseErrorHandler implements ResponseErrorHandler {
 
 
 	@Override

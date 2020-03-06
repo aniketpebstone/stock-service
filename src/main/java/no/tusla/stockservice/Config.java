@@ -17,8 +17,8 @@ public class Config {
 	}
 	
 	@Bean
-	public SupplyResponseErrorHandler getSupplyResponseErrorHandler()
+	public StockResponseErrorHandler getSupplyResponseErrorHandler()
 	{
-		return new SupplyResponseErrorHandler();
+		return new StockResponseErrorHandler();
 	}
 }

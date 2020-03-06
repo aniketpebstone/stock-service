@@ -27,5 +27,10 @@ public class Stock {
 	@Column(name = "quantity", nullable = false)
 	private int quantity;
 
+	@Override
+	public String toString()
+	{
+		return "| Company:"+getCompany()+"  | Model:"+getModel()+"  | Quantity:"+getQuantity()+" |";
+	}
 
 }
