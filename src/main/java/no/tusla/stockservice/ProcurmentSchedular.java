@@ -24,6 +24,8 @@ public class ProcurmentSchedular {
 		{
 			log.info(stock.toString());	
 		}
+		log.info("-------------------------------------------------------");
+		
 	}
 
 }
